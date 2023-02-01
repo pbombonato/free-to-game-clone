@@ -1,9 +1,9 @@
 import './App.css';
 import React from 'react';
-// import Home from './pages/Home'
+import Home from './pages/Home'
 import Header from './components/Header';
 import Footer from './components/Footer';
-import GameDetailsPage from './pages/GameDetailsPage';
+// import GameDetailsPage from './pages/GameDetailsPage';
 
 function App() {
   const id = 475
@@ -16,8 +16,8 @@ function App() {
   return (
     <React.Fragment>
       <Header />
-      {/* <Home /> */}
-      <GameDetailsPage id={id} {...userInfo} />
+      <Home />
+      {/* <GameDetailsPage id={id} {...userInfo} /> */}
       <Footer />
     </React.Fragment>
   )
